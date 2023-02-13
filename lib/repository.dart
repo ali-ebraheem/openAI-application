@@ -19,7 +19,7 @@ class RemoteRepository {
 
     try {
       var response = await dio.post(
-          'https://testapi-0b4e.onrender.com/api_request',
+          'https://testapi-hlob.onrender.com/api_request',
           queryParameters: {"prompt": message});
       print(response);
       return response;
